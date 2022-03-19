@@ -1,0 +1,231 @@
+{
+	"id": "9e4f60f8-4bad-3c53-d40d-623ace2f3843",
+	"name": "laravel-api",
+	"description": "",
+	"order": [
+		"03575b15-4626-beae-6dad-59d9b8dfa9ea",
+		"703ba98e-c690-5766-9430-37c40b01b6c9",
+		"f9157742-fc66-f358-b886-3e77c19e8eab",
+		"550f7a8e-5440-186a-f2d5-5730ae45b875"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1647246344509,
+	"owner": "1348829",
+	"public": false,
+	"requests": [
+		{
+			"id": "03575b15-4626-beae-6dad-59d9b8dfa9ea",
+			"headers": "Accept: application/x.laravel.v1+json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/x.laravel.v1+json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8001/api/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "ramesh@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1647246504135,
+			"name": "login",
+			"description": "",
+			"collectionId": "9e4f60f8-4bad-3c53-d40d-623ace2f3843",
+			"responses": [],
+			"folder": null,
+			"folderId": null,
+			"timestamp": null
+		},
+		{
+			"id": "550f7a8e-5440-186a-f2d5-5730ae45b875",
+			"headers": "//Accept: application/x.laravel.v1+json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NzI0Njc3MCwiZXhwIjoxNjQ3MjUwMzcwLCJuYmYiOjE2NDcyNDY3NzAsImp0aSI6InRDS3FYa2FTWlkwS0d4RHciLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.Ne2z7YHkX50cgju494PeIOo3wJhvKwQVhS6nzF61ccU\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/x.laravel.v1+json",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NzI0Njc3MCwiZXhwIjoxNjQ3MjUwMzcwLCJuYmYiOjE2NDcyNDY3NzAsImp0aSI6InRDS3FYa2FTWlkwS0d4RHciLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.Ne2z7YHkX50cgju494PeIOo3wJhvKwQVhS6nzF61ccU",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8001/api/logout",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NzI0Njc3MCwiZXhwIjoxNjQ3MjUwMzcwLCJuYmYiOjE2NDcyNDY3NzAsImp0aSI6InRDS3FYa2FTWlkwS0d4RHciLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.Ne2z7YHkX50cgju494PeIOo3wJhvKwQVhS6nzF61ccU",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1647246877816,
+			"name": "logout",
+			"description": "",
+            {
+			"collectionId": "9e4f60f8-4bad-3c53-d40d-623ace2f3843",
+			"responses": [],
+			"folder": null,
+			"folderId": null,
+			"timestamp": null
+		},
+			"id": "703ba98e-c690-5766-9430-37c40b01b6c9",
+			"headers": "Accept: application/x.laravel.v1+json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/x.laravel.v1+json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8001/api/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "ramesh@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "ramesh dev",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1647246555890,
+			"name": "register",
+			"description": "",
+			"collectionId": "9e4f60f8-4bad-3c53-d40d-623ace2f3843",
+			"responses": [],
+			"folder": null,
+			"folderId": null,
+			"timestamp": null
+		},
+		{
+			"id": "f9157742-fc66-f358-b886-3e77c19e8eab",
+			"headers": "Accept: application/x.laravel.v1+json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NzI0NjUwNSwiZXhwIjoxNjQ3MjUwMTA1LCJuYmYiOjE2NDcyNDY1MDUsImp0aSI6Indxck5YbWgzWDE4MWRIa1IiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.g8P3JPYhDXaLTItMUVuu6Y4I1b9uF4pGk8x6uXGwzZU\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/x.laravel.v1+json",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NzI0NjUwNSwiZXhwIjoxNjQ3MjUwMTA1LCJuYmYiOjE2NDcyNDY1MDUsImp0aSI6Indxck5YbWgzWDE4MWRIa1IiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.g8P3JPYhDXaLTItMUVuu6Y4I1b9uF4pGk8x6uXGwzZU",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "http://localhost:8001/api/get_user?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NzI0Njg5MSwiZXhwIjoxNjQ3MjUwNDkxLCJuYmYiOjE2NDcyNDY4OTEsImp0aSI6InRJVTkzcHpDMExQMjk0clYiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.UEImj5wTq5RLUqLwXQ49y3SoQp6RICHQnFBraVocS10",
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NzI0Njg5MSwiZXhwIjoxNjQ3MjUwNDkxLCJuYmYiOjE2NDcyNDY4OTEsImp0aSI6InRJVTkzcHpDMExQMjk0clYiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.UEImj5wTq5RLUqLwXQ49y3SoQp6RICHQnFBraVocS10",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "email",
+					"value": "ramesh@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "ramesh dev",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1647246912935,
+			"name": "get_user",
+			"description": "",
+			"collectionId": "9e4f60f8-4bad-3c53-d40d-623ace2f3843",
+			"responses": [],
+			"folder": null,
+			"folderId": null,
+			"timestamp": null
+		}
+	]
+}
